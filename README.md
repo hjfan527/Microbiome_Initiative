@@ -1,1 +1,1 @@
-# Website for the BU microbiome initiate
+# Website for the BU microbiome initiative
