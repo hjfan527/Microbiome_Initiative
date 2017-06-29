@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ee4984d-1bac-4a7d-b7c3-79f4852a82e3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/PathoStatImage.PNG" afterPath="$PROJECT_DIR$/static/images/PathoStatImage.PNG" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/MI_tools.html" afterPath="$PROJECT_DIR$/templates/MI_tools.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,15 +47,15 @@
       <file leaf-file-name="MI_tools.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/MI_tools.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="162" column="18" lean-forward="true" selection-start-line="162" selection-start-column="18" selection-end-line="162" selection-end-column="18" />
+            <state relative-caret-position="374">
+              <caret line="40" column="39" lean-forward="true" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
               <folding>
-                <element signature="e#6730#6736#0" expanded="true" />
-                <element signature="e#6736#6742#0" expanded="true" />
-                <element signature="e#6742#6748#0" expanded="true" />
-                <element signature="e#7892#7898#0" expanded="true" />
-                <element signature="e#7898#7904#0" expanded="true" />
-                <element signature="e#7904#7910#0" expanded="true" />
+                <element signature="e#6739#6745#0" expanded="true" />
+                <element signature="e#6745#6751#0" expanded="true" />
+                <element signature="e#6751#6757#0" expanded="true" />
+                <element signature="e#7901#7907#0" expanded="true" />
+                <element signature="e#7907#7913#0" expanded="true" />
+                <element signature="e#7913#7919#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -399,7 +398,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="6" y="45" width="1259" height="938" extended-state="1" />
+    <frame x="6" y="45" width="1259" height="938" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19388576" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -583,15 +582,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/MI_tools.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="162" column="18" lean-forward="true" selection-start-line="162" selection-start-column="18" selection-end-line="162" selection-end-column="18" />
+        <state relative-caret-position="374">
+          <caret line="40" column="39" lean-forward="true" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
           <folding>
-            <element signature="e#6730#6736#0" expanded="true" />
-            <element signature="e#6736#6742#0" expanded="true" />
-            <element signature="e#6742#6748#0" expanded="true" />
-            <element signature="e#7892#7898#0" expanded="true" />
-            <element signature="e#7898#7904#0" expanded="true" />
-            <element signature="e#7904#7910#0" expanded="true" />
+            <element signature="e#6739#6745#0" expanded="true" />
+            <element signature="e#6745#6751#0" expanded="true" />
+            <element signature="e#6751#6757#0" expanded="true" />
+            <element signature="e#7901#7907#0" expanded="true" />
+            <element signature="e#7907#7913#0" expanded="true" />
+            <element signature="e#7913#7919#0" expanded="true" />
           </folding>
         </state>
       </provider>
