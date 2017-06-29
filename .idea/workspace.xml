@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ee4984d-1bac-4a7d-b7c3-79f4852a82e3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/MI_tools.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/MI_home.html" afterPath="$PROJECT_DIR$/templates/MI_home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/MI_tools.html" afterPath="$PROJECT_DIR$/templates/MI_tools.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,9 +47,16 @@
       <file leaf-file-name="MI_tools.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/MI_tools.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="117" column="41" lean-forward="true" selection-start-line="117" selection-start-column="41" selection-end-line="117" selection-end-column="41" />
-              <folding />
+            <state relative-caret-position="425">
+              <caret line="160" column="103" lean-forward="false" selection-start-line="160" selection-start-column="103" selection-end-line="160" selection-end-column="103" />
+              <folding>
+                <element signature="e#6583#6589#0" expanded="true" />
+                <element signature="e#6589#6595#0" expanded="true" />
+                <element signature="e#6595#6601#0" expanded="true" />
+                <element signature="e#7645#7651#0" expanded="true" />
+                <element signature="e#7651#7657#0" expanded="true" />
+                <element signature="e#7657#7663#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -577,9 +582,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/MI_tools.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="117" column="41" lean-forward="true" selection-start-line="117" selection-start-column="41" selection-end-line="117" selection-end-column="41" />
-          <folding />
+        <state relative-caret-position="425">
+          <caret line="160" column="103" lean-forward="false" selection-start-line="160" selection-start-column="103" selection-end-line="160" selection-end-column="103" />
+          <folding>
+            <element signature="e#6583#6589#0" expanded="true" />
+            <element signature="e#6589#6595#0" expanded="true" />
+            <element signature="e#6595#6601#0" expanded="true" />
+            <element signature="e#7645#7651#0" expanded="true" />
+            <element signature="e#7651#7657#0" expanded="true" />
+            <element signature="e#7657#7663#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
