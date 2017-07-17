@@ -10,6 +10,7 @@
     <link rel="icon" href="../../favicon.ico">
 
     <title>Carousel Template for Bootstrap</title>
+    <script src="https://unpkg.com/vue"></script>
 
     <!-- Bootstrap core CSS -->
     <link href="../static/css/bootstrap.min.css" rel="stylesheet">
@@ -124,9 +125,11 @@
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
-    <div class="jumbotron">
-      <p>This page contains tools developed in the lab for the purposes of processing and analyzing microbial interactions
-      in a microbiome.</p>
+    <div class="container">
+      <div class="jumbotron">
+        <p>This page contains tools developed in the lab for the purposes of processing and analyzing microbial interactions
+        in a microbiome.</p>
+      </div>
     </div>
 
     <div class="container marketing">
@@ -144,10 +147,21 @@
             tests of Differential Abundance, Time Series visualization, and Core OTU analysis.
             <br />
             <a href="http://bioconductor.org/packages/release/bioc/html/PathoStat.html">Link to PathoStat Bioconductor page</a></p>
-          <p><a class="btn btn-lg btn-primary" href="#" role="button">Import data</a>&nbsp;&nbsp;&nbsp;<a class="btn btn-lg btn-primary" href="#" role="button">Try it out</a></p>
+          <div id="app">
+            <button class="btn btn-lg btn-primary" v-on:click="revealMessage">Import data</button>&nbsp;&nbsp;&nbsp;<button class="btn btn-lg btn-primary" v-on:click="hideMessage">Try it out</button>
+          </div>
         </div>
         <div class="col-md-5">
           <img class="featurette-image img-responsive center-block" src="../static/images/PathoStatImage.PNG" alt="Generic placeholder image">
+        </div>
+
+        <div id="app-2">
+          <div v-if="seen">
+            <div class="col-md-7">
+              <p class="lead">Choose a file:</p>
+              <input v-model="inputfile">
+            </div>
+          </div>
         </div>
       </div>
 
@@ -162,10 +176,21 @@
             analysis), and on a discrete approximation of diffusion.
             <br />
             <a href="http://www.bu.edu/segrelab/comets/">Link to COMETS page</a></p>
-          <p><a class="btn btn-lg btn-primary" href="#" role="button">Import data</a>&nbsp;&nbsp;&nbsp;<a class="btn btn-lg btn-primary" href="#" role="button">Try it out</a></p>
+          <div id="app-3">
+            <button class="btn btn-lg btn-primary" v-on:click="revealMessage">Import data</button>&nbsp;&nbsp;&nbsp;<button class="btn btn-lg btn-primary" v-on:click="hideMessage">Try it out</button>
+          </div>
         </div>
         <div class="col-md-5 col-md-pull-7">
           <img class="featurette-image img-responsive center-block" src="http://www.bu.edu/segrelab/files/2013/07/newbiomass.gif" alt="Generic placeholder image">
+        </div>
+
+        <div id="app-4">
+          <div v-if="seen">
+            <div class="col-md-7 col-md-push-5">
+              <p class="lead">Choose a file:</p>
+              <input v-model="inputfile">
+            </div>
+          </div>
         </div>
       </div>
 
@@ -182,6 +207,47 @@
 
     </div><!-- /.container -->
 
+    <script>
+      var app = new Vue({
+        el: '#app',
+        methods: {
+         revealMessage: function () {
+          app2.seen = true
+         },
+         hideMessage: function () {
+          app2.seen = false
+         }
+        }
+      })
+
+      var app2 = new Vue({
+        el: '#app-2',
+        data: {
+        message: "Hello Vue!",
+         seen: false
+        }
+      })
+
+      var app3 = new Vue({
+        el: '#app-3',
+        methods: {
+         revealMessage: function () {
+          app4.seen = true
+         },
+         hideMessage: function () {
+          app4.seen = false
+         }
+        }
+      })
+
+      var app4 = new Vue({
+        el: '#app-4',
+        data: {
+        message: "Hello Vue!",
+         seen: false
+        }
+      })
+    </script>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

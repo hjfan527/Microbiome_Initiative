@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ee4984d-1bac-4a7d-b7c3-79f4852a82e3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/MI_tools.html" afterPath="$PROJECT_DIR$/templates/MI_tools.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,22 +14,12 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="webapp.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapp.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="MI_home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/MI_home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="97" column="12" lean-forward="true" selection-start-line="92" selection-start-column="6" selection-end-line="97" selection-end-column="12" />
+            <state relative-caret-position="1649">
+              <caret line="97" column="12" lean-forward="false" selection-start-line="92" selection-start-column="6" selection-end-line="97" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -37,8 +28,8 @@
       <file leaf-file-name="MI_comets.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/MI_comets.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="72" column="11" lean-forward="true" selection-start-line="72" selection-start-column="11" selection-end-line="72" selection-end-column="79" />
+            <state relative-caret-position="1224">
+              <caret line="72" column="11" lean-forward="false" selection-start-line="72" selection-start-column="11" selection-end-line="72" selection-end-column="79" />
               <folding />
             </state>
           </provider>
@@ -47,16 +38,36 @@
       <file leaf-file-name="MI_tools.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/MI_tools.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="40" column="39" lean-forward="true" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+            <state relative-caret-position="419">
+              <caret line="186" column="24" lean-forward="true" selection-start-line="186" selection-start-column="24" selection-end-line="186" selection-end-column="24" />
               <folding>
-                <element signature="e#6739#6745#0" expanded="true" />
-                <element signature="e#6745#6751#0" expanded="true" />
-                <element signature="e#6751#6757#0" expanded="true" />
-                <element signature="e#7901#7907#0" expanded="true" />
-                <element signature="e#7907#7913#0" expanded="true" />
-                <element signature="e#7913#7919#0" expanded="true" />
+                <element signature="e#6874#6880#0" expanded="true" />
+                <element signature="e#6880#6886#0" expanded="true" />
+                <element signature="e#6886#6892#0" expanded="true" />
+                <element signature="e#8332#8338#0" expanded="true" />
+                <element signature="e#8338#8344#0" expanded="true" />
+                <element signature="e#8344#8350#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/bootstrap.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="4" column="17515" lean-forward="false" selection-start-line="4" selection-start-column="17511" selection-end-line="4" selection-end-column="17515" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Test/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -64,7 +75,7 @@
       <file leaf-file-name="MI_pathostat.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/MI_pathostat.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
+            <state relative-caret-position="1173">
               <caret line="69" column="8" lean-forward="false" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="130" />
               <folding />
             </state>
@@ -74,7 +85,7 @@
       <file leaf-file-name="carousel.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/carousel.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
+            <state relative-caret-position="204">
               <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
@@ -84,7 +95,7 @@
       <file leaf-file-name="carousel.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Test/carousel.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-136">
+            <state relative-caret-position="170">
               <caret line="10" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="220" selection-end-column="0" />
               <folding />
             </state>
@@ -111,16 +122,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index_original.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/index_original.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -134,6 +135,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>jumbot</find>
+      <find>lead</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -182,6 +184,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -292,12 +295,11 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Test/carousel.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Test/index.html" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -404,13 +406,13 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19388576" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -429,8 +431,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MI_news.html" />
-    <entry file="file://$PROJECT_DIR$/MI_contact.html" />
     <entry file="file://$PROJECT_DIR$/css/navbar.css" />
     <entry file="file://$PROJECT_DIR$/MI_pathostat.html" />
     <entry file="file://$PROJECT_DIR$/MI_home.html" />
@@ -496,7 +496,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -524,17 +523,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/MI_tools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="160" column="34" lean-forward="true" selection-start-line="160" selection-start-column="34" selection-end-line="160" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/MI_tools.py" />
     <entry file="file://$PROJECT_DIR$/../Test/carousel.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
+        <state relative-caret-position="170">
           <caret line="10" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="220" selection-end-column="0" />
           <folding />
         </state>
@@ -544,13 +536,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-408">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/carousel.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
+        <state relative-caret-position="204">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
@@ -558,15 +549,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/MI_home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="97" column="12" lean-forward="true" selection-start-line="92" selection-start-column="6" selection-end-line="97" selection-end-column="12" />
+        <state relative-caret-position="1649">
+          <caret line="97" column="12" lean-forward="false" selection-start-line="92" selection-start-column="6" selection-end-line="97" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/MI_pathostat.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
+        <state relative-caret-position="1173">
           <caret line="69" column="8" lean-forward="false" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="130" />
           <folding />
         </state>
@@ -574,23 +565,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/MI_comets.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="72" column="11" lean-forward="true" selection-start-line="72" selection-start-column="11" selection-end-line="72" selection-end-column="79" />
+        <state relative-caret-position="1224">
+          <caret line="72" column="11" lean-forward="false" selection-start-line="72" selection-start-column="11" selection-end-line="72" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Test/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="4" column="17515" lean-forward="false" selection-start-line="4" selection-start-column="17511" selection-end-line="4" selection-end-column="17515" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/MI_tools.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="40" column="39" lean-forward="true" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+        <state relative-caret-position="419">
+          <caret line="186" column="24" lean-forward="true" selection-start-line="186" selection-start-column="24" selection-end-line="186" selection-end-column="24" />
           <folding>
-            <element signature="e#6739#6745#0" expanded="true" />
-            <element signature="e#6745#6751#0" expanded="true" />
-            <element signature="e#6751#6757#0" expanded="true" />
-            <element signature="e#7901#7907#0" expanded="true" />
-            <element signature="e#7907#7913#0" expanded="true" />
-            <element signature="e#7913#7919#0" expanded="true" />
+            <element signature="e#6874#6880#0" expanded="true" />
+            <element signature="e#6880#6886#0" expanded="true" />
+            <element signature="e#6886#6892#0" expanded="true" />
+            <element signature="e#8332#8338#0" expanded="true" />
+            <element signature="e#8338#8344#0" expanded="true" />
+            <element signature="e#8344#8350#0" expanded="true" />
           </folding>
         </state>
       </provider>
