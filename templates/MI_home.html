@@ -5,17 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
 
     <title>Microbiome Initiative</title>
+    <script src="https://unpkg.com/vue"></script>
 
     <!-- Bootstrap core CSS -->
     <link href="../static/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="../static/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="../static/css/navbar.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../static/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -27,27 +28,8 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <style>
-      .homeimage {
-        position: relative;
-      }
-
-      .center {
-        position: absolute;
-        left: 0;
-        top: 20%;
-        width: 100%;
-        text-align: center;
-        font-size: 54px;
-      }
-
-      img {
-        object-fit: cover;
-        width: 100%;
-        height: 200px;
-        opacity: 0.5;
-      }
-    </style>
+    <!-- Custom styles for this template -->
+    <link href="../static/css/carousel.css" rel="stylesheet">
   </head>
 
   <body>
@@ -55,36 +37,42 @@
     <div class="container">
 
       <!-- Static navbar -->
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">BU Microbiome Initiative</a>
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="http://localhost:63342/MicrobiomeInitiative/MI_home.html">Home</a></li>
-              <li><a href="http://localhost:63342/MicrobiomeInitiative/MI_news.html">News</a></li>
-              <li><a href="http://localhost:63342/MicrobiomeInitiative/MI_contact.html">Contact</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tools <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="http://localhost:63342/MicrobiomeInitiative/MI_pathostat.html">PathoStat</a></li>
-                  <li><a href="http://localhost:63342/MicrobiomeInitiative/MI_comets.html">COMETS</a></li>
+      <div class="navbar-wrapper">
+        <div class="container">
+
+          <nav class="navbar navbar-inverse navbar-static-top">
+            <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Microbiome Initiative</a>
+              </div>
+              <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="http://localhost:63342/Microbiome_Initiative/templates/MI_home.html">Home</a></li>
+                  <li><a href="http://localhost:63342/Microbiome_Initiative/templates/MI_news.html">News</a></li>
+                  <li><a href="http://localhost:63342/Microbiome_Initiative/templates/MI_contact.html">Members</a></li>
+                  <li>
+                    <a href="#Tools" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tools <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#PathoStat">PathoStat</a></li>
+                      <li><a href="#COMETS">COMETS</a></li>
+                    </ul>
+                  </li>
                 </ul>
-              </li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div><!--/.container-fluid -->
-      </nav>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
 
       <!-- Main component for a primary marketing message or call to action -->
-
+    <div class="container">
       <div class="homeimage">
         <img src="images/microbiome.png" alt="Microbiome">
         <div class="center">Welcome to the BU Microbiome Initiative</div>
@@ -104,8 +92,10 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../static/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="../static/js/vendor/holder.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script src="../static/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
