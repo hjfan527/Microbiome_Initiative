@@ -155,13 +155,6 @@
             </div>
           </div>
         </div>
-
-        <div id="app-10">
-          <div v-if="seen">
-            <p></p>
-            <iframe src="http://127.0.0.1:3071/" width="100%" height="800">...</iframe>
-          </div>
-        </div>
       </div>
 
       <hr class="featurette-divider">
@@ -186,14 +179,8 @@
         <div id="app-4">
           <div v-if="seen">
             <div class="col-md-7 col-md-push-5">
-              <p class="lead">Choose a model file:</p>
+              <p class="lead">Choose a file:</p>
               <input v-model="inputfile">
-              <p class="lead">Select a layout:</p>
-              <select class="form-control" id="sel1">
-                <option>No layout selected...</option>
-                <option>1x1</option>
-                <option>Colony</option>
-              </select>
             </div>
           </div>
         </div>
@@ -219,7 +206,7 @@
           app2.seen = true
          },
          hideMessage: function () {
-          app10.seen = true
+          app2.seen = false
          }
         }
       })
@@ -246,14 +233,6 @@
 
       var app4 = new Vue({
         el: '#app-4',
-        data: {
-        message: "Hello Vue!",
-         seen: false
-        }
-      })
-
-      var app10 = new Vue({
-        el: '#app-10',
         data: {
         message: "Hello Vue!",
          seen: false
