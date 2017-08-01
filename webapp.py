@@ -15,9 +15,14 @@ class CustomFlask(Flask):
 app = CustomFlask(__name__)
 
 @app.route('/')
-def hello_world():
+def mi_home():
     data = {'content':  'This is the body', 'title': 'This is the title', 'heading': 'HEADING'}
-    return render_template('index.html', **data)
+    return render_template('MI_home.html', **data)
+
+@app.route('/news/')
+def mi_news():
+    data = {}
+    return render_template('MI_news.html', **data)
 
 if __name__ == '__main__':
    app.run(debug=True)
