@@ -1,5 +1,7 @@
 'use strict';
 
+
+
 new Vue({
   el: '#app',
   data: {
@@ -24,7 +26,21 @@ new Vue({
 
     removeImage: function removeImage(e) {
       this.image = '';
-    }
+    },
+
+    postdata: function() {
+        console.log('postdata');
+        $.ajax({
+        type: "POST",
+        url: "snippets/reverse_pca.py",
+        data: { 'hello': "world" },
+        dataType: "json",
+        success: function(data) {
+                    console.log('success');
+                    console.log(data);
+                }
+        });
+     }
   }
 });
 

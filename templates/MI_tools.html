@@ -85,19 +85,19 @@
           <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>PathoStat</h1>
-              <p>Comment about PathoStat</p>
+              <h1>PathoScope</h1>
+              <p>Comment about PathoScope</p>
               <p><a class="btn btn-lg btn-primary" href="#" role="button">Demo</a></p>
             </div>
           </div>
         </div>
         <div class="item">
-          <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+          <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Third tool placeholder</h1>
-              <p>Make this third tool great again!</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Best Healthcare Bill</a></p>
+              <h1>PathoStat</h1>
+              <p>Comment about PathoStat</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Demo</a></p>
             </div>
           </div>
         </div>
@@ -132,19 +132,20 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">PathoStat <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">PathoStats is a R package that performs Statistical Microbiome Analysis on metagenomics results
-            from sequencing data samples. In particular, it supports analyses on the PathoScope generated report files.
-            PathoStat provides various functionalities including Relative Abundance charts, Diversity estimates and plots,
-            tests of Differential Abundance, Time Series visualization, and Core OTU analysis.
+          <h2 class="featurette-heading">PathoScope</h2>
+          <p class="lead">a complete bioinformatics framework for rapidly and accurately quantifying the proportions of
+            reads from individual microbial strains present in metagenomic sequencing data from environmental or clinical
+            samples. The pipeline performs all necessary computational analysis steps; including reference genome library
+            extraction and indexing, read quality control and alignment, strain identification, and summarization and
+            annotation of results.
             <br />
-            <a href="http://bioconductor.org/packages/release/bioc/html/PathoStat.html">Link to PathoStat Bioconductor page</a></p>
+            <a href="https://sourceforge.net/projects/pathoscope/">Link to PathoScope download page</a></p>
           <div id="app">
             <button class="btn btn-lg btn-primary" v-on:click="revealMessage">Import data</button>&nbsp;&nbsp;&nbsp;<button class="btn btn-lg btn-primary" v-on:click="hideMessage">Try it out</button>
           </div>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" src="../static/images/PathoStatImage.PNG" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive center-block" src="../static/images/PathoScope_workflow.PNG" alt="Generic placeholder image">
         </div>
 
         <div id="app-2">
@@ -158,7 +159,7 @@
 
         <div id="app-10">
           <div v-if="seen">
-            <p></p>
+            <br /><br />
             <iframe src="http://127.0.0.1:3071/" width="100%" height="800">...</iframe>
           </div>
         </div>
@@ -168,6 +169,26 @@
 
       <div class="row featurette">
         <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">PathoStat <span class="text-muted">It'll blow your mind.</span></h2>
+          <p class="lead">PathoStats is a R package that performs Statistical Microbiome Analysis on metagenomics results
+            from sequencing data samples. In particular, it supports analyses on the PathoScope generated report files.
+            PathoStat provides various functionalities including Relative Abundance charts, Diversity estimates and plots,
+            tests of Differential Abundance, Time Series visualization, and Core OTU analysis.
+            <br />
+            <a href="http://bioconductor.org/packages/release/bioc/html/PathoStat.html">Link to PathoStat Bioconductor page</a></p>
+          <div id="app">
+            <button class="btn btn-lg btn-primary" v-on:click="revealMessage">Import data</button>&nbsp;&nbsp;&nbsp;<button class="btn btn-lg btn-primary" v-on:click="hideMessage">Try it out</button>
+          </div>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="../static/images/PathoStatImage.PNG" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
           <h2 class="featurette-heading">COMETS <span class="text-muted">See for yourself.</span></h2>
           <p class="lead">COMETS (Computation Of Microbial Ecosystems in Time and Space) is a software platform for performing
             computer simulations of metabolism in spatially structured microbial communities. It is based on stoichiometric
@@ -179,13 +200,14 @@
             <button class="btn btn-lg btn-primary" v-on:click="revealMessage">Import data</button>&nbsp;&nbsp;&nbsp;<button class="btn btn-lg btn-primary" v-on:click="hideMessage">Try it out</button>
           </div>
         </div>
-        <div class="col-md-5 col-md-pull-7">
+        <div class="col-md-5">
           <img class="featurette-image img-responsive center-block" src="http://www.bu.edu/segrelab/files/2013/07/newbiomass.gif" alt="Generic placeholder image">
         </div>
 
         <div id="app-4">
           <div v-if="seen">
-            <div class="col-md-7 col-md-push-5">
+            <div class="col-md-7">
+              <br />
               <p class="lead">Choose a model file:</p>
               <input v-model="inputfile">
               <p class="lead">Select a layout:</p>
@@ -194,6 +216,8 @@
                 <option>1x1</option>
                 <option>Colony</option>
               </select>
+              <br />
+              <button class="btn btn-lg btn-primary" v-on:click="">Run Simulation</button>
             </div>
           </div>
         </div>
