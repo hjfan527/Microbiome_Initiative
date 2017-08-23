@@ -1,15 +1,15 @@
+import os
+import psutil
 import subprocess
 from multiprocessing import Process
 import random
 
 def rscript_run(cmd):
-    Process.run(cmd, shell=True, universal_newlines=True)
-    for outline in iter(process_out.stdout.readline, ""):
-        yield outline
-    process_out.stdout.close()
-    return_code = process_out.wait()
-    if return_code:
-        raise subprocess.CalledProcessError(return_code, cmd)
+    curr_process = Process(target=subprocess.Popen, args=(cmd,),
+                           kwargs={"shell": True, "universal_newlines": True})
+    curr_process.start()
+    parent = psutil.Process(os.getpid())
+    return parent.children(recursive=True)
 
 def get_open_ports():
     cmd = 'netstat -vatn | grep -i "127.0.0.1" | awk "{print $4}"'
@@ -22,9 +22,9 @@ if __name__ == '__main__':
     open_ports = get_open_ports()
     port = open_ports[0]
     while port in open_ports:
-        port = random.randint(0, 9999)
-    print(port)
+        port = random.randint(1000, 9999)
     cmd = f"Rscript {path} {port}"
-    for line in rscript_run(cmd):
-        pass
+    pid = rscript_run(cmd)
+    print('I reached this')
+    print(f'pid: {d for d in pid}, port: {port}')
     #QUESTION: how do you terminate the process

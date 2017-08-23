@@ -1,0 +1,30 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CustomFlask	../webapp.py	/^class CustomFlask(Flask):$/;"	kind:class	line:4
+Flask	../webapp.py	/^from flask import Flask, render_template$/;"	kind:namespace	line:1
+app	../webapp.py	/^app = CustomFlask(__name__)$/;"	kind:variable	line:15
+block_end_string	../webapp.py	/^    block_end_string='$$',$/;"	kind:variable	line:8
+block_start_string	../webapp.py	/^    block_start_string='$$',$/;"	kind:variable	line:7
+cmd	../scripts/pstat_run_monitor.py	/^    cmd = f"Rscript {path} {port}"$/;"	kind:variable	line:26
+comment_end_string	../webapp.py	/^    comment_end_string='#$',$/;"	kind:variable	line:12
+comment_start_string	../webapp.py	/^    comment_start_string='$#',$/;"	kind:variable	line:11
+get_open_ports	../scripts/pstat_run_monitor.py	/^def get_open_ports():$/;"	kind:function	line:13
+jinja_options	../webapp.py	/^    jinja_options = Flask.jinja_options.copy()$/;"	kind:variable	line:5
+mi_home	../webapp.py	/^def mi_home():$/;"	kind:function	line:18
+mi_news	../webapp.py	/^def mi_news():$/;"	kind:function	line:23
+open_ports	../scripts/pstat_run_monitor.py	/^    open_ports = get_open_ports()$/;"	kind:variable	line:21
+path	../scripts/pstat_run_monitor.py	/^    path = "pstat_rscript.R"$/;"	kind:variable	line:20
+port	../scripts/pstat_run_monitor.py	/^        port = random.randint(0, 9999)$/;"	kind:variable	line:24
+port	../scripts/pstat_run_monitor.py	/^    port = open_ports[0]$/;"	kind:variable	line:22
+pstat_run_monitor.py	../scripts/pstat_run_monitor.py	1;"	kind:file	line:1
+random	../scripts/pstat_run_monitor.py	/^import random$/;"	kind:namespace	line:2
+render_template	../webapp.py	/^from flask import Flask, render_template$/;"	kind:namespace	line:1
+rscript_run	../scripts/pstat_run_monitor.py	/^def rscript_run(cmd):$/;"	kind:function	line:4
+subprocess	../scripts/pstat_run_monitor.py	/^import subprocess$/;"	kind:namespace	line:1
+variable_end_string	../webapp.py	/^    variable_end_string='$',$/;"	kind:variable	line:10
+variable_start_string	../webapp.py	/^    variable_start_string='$',$/;"	kind:variable	line:9
+webapp.py	../webapp.py	1;"	kind:file	line:1

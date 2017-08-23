@@ -1,0 +1,173 @@
+$$ extends 'layout.html' $$
+
+
+$$ block body $$
+
+$$ include 'includes/_carousel.html' $$
+
+<div class="container">
+
+
+    <div class="animated slideInLeft card hoverable" id="pathoscope_tool">
+        <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Pathoscope</span>
+            <p> A complete bioinformatics framework for rapidly and accurately quantifying the proportions of reads from individual microbial strains present in metagenomic sequencing data from environmental or clinical samples. The pipeline performs all necessary computational analysis steps; including reference genome library extraction and indexing, read quality control and alignment, strain identification, and summarization and annotation of results. </p>
+        </div>
+        <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator center" style="width:400px;height:400px;" src="$ url_for('static', filename='images/pathoscope_workflow.png') $">
+        </div>
+        <div id="tool-reveal">
+            <a class="activator btn-large waves-effect waves-light red right">Try it out</a>
+        </div>
+        <div class="clearfix"></div>
+        <div class="card-action small">
+            <p><a href="https://sourceforge.net/projects/pathoscope/">Link to download Pathoscope</a></p>
+        </div>
+        <div class="card-reveal grey lighten-4">
+            <span class="card-title grey-text text-darken-4">Pathoscope Demo<i class="material-icons right">close</i></span>
+            <div class="card-tabs">
+                <ul class="tabs tabs-fixed-width grey lighten-4">
+                    <li class="tab"><a class="active" href="#pathoscope_example">Run Example</a></li>
+                    <li class="tab"><a href="#pathoscope_data">Run with Custom Data</a></li>
+                </ul>
+            </div>
+            <div class="card-content">
+                <div id="pathoscope_example">
+                    <div class="input-field col s6">
+                        <select>
+                            <option value="" disabled selected>Choose the example to run</option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                        <label>Example data</label>
+                    </div>
+                </div>
+                <div id="pathoscope_data">
+                    <form action="#">
+                    <div class="file-field input-field">
+                        <div class="btn">
+                            <span>File</span>
+                            <input type="file">
+                        </div>
+                        <div class="file-path-wrapper">
+                            <input class="file-path validate" type="text">
+                        </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card hoverable" id="pathostat_tool">
+        <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Pathostat</span>
+            <p>PathoStat is a R package that performs Statistical Microbiome Analysis on metagenomics results from sequencing data samples. In particular, it supports analyses on the PathoScope generated report files. PathoStat provides various functionalities including Relative Abundance charts, Diversity estimates and plots, tests of Differential Abundance, Time Series visualization, and Core OTU analysis</p>
+            <p><a href="http://bioconductor.org/packages/release/bioc/html/PathoStat.html">Link to download Pathostat</a></p>
+        </div>
+        <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator center" style="width:400px;height:400px;" src="$ url_for('static', filename='images/pathostat_image.png') $">
+        </div>
+        <div id="tool-reveal">
+            <a class="activator btn-large waves-effect waves-light red">Try it out</a>
+        </div>
+        <div class="card-reveal grey lighten-4">
+            <span class="card-title grey-text text-darken-4">Pathostat Demo<i class="material-icons right">close</i></span>
+            <div class="card-tabs">
+                <ul class="tabs tabs-fixed-width grey lighten-4">
+                    <li class="tab"><a class="active" href="#pathostat_example">Run Example</a></li>
+                    <li class="tab"><a href="#pathostat_data">Run with Custom Data</a></li>
+                </ul>
+            </div>
+            <div class="card-content">
+                <div id="pathostat_example">
+                    <div class="input-field col s6">
+                        <select>
+                            <option value="" disabled selected>Choose the example to run</option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                        <label>Example data</label>
+                    </div>
+                </div>
+                <div id="pathostat_data">
+                    <form action="#">
+                    <div class="file-field input-field">
+                        <div class="btn">
+                            <span>File</span>
+                            <input type="file">
+                        </div>
+                        <div class="file-path-wrapper">
+                            <input class="file-path validate" type="text">
+                        </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card hoverable" id="comets_tool">
+        <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">COMETS</span>
+            <p>COMETS (Computation Of Microbial Ecosystems in Time and Space) is a software platform for performing computer simulations of metabolism in spatially structured microbial communities. It is based on stoichiometric modeling of the genome-scale metabolic network of individual microbial species (using dynamic flux balance analysis), and on a discrete approximation of diffusion.</p>
+            <p><a href="http://www.bu.edu/segrelab/comets/">Link to COMETS webpage</a></p>
+        </div>
+        <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator center" style="width:400px;height:400px;" src="$ url_for('static', filename='images/comets.gif') $">
+        </div>
+        <div id="tool-reveal">
+            <a class="activator btn-large waves-effect waves-light red">Try it out</a>
+        </div>
+        <div class="card-reveal grey lighten-4">
+            <span class="card-title grey-text text-darken-4">COMETS Demo<i class="material-icons right">close</i></span>
+            <div class="card-tabs">
+                <ul class="tabs tabs-fixed-width grey lighten-4">
+                    <li class="tab"><a class="active" href="#comets_example">Run Example</a></li>
+                    <li class="tab"><a href="#comets_data">Run with Custom Data</a></li>
+                </ul>
+            </div>
+            <div class="card-content">
+                <div id="comets_example">
+                    <div class="input-field col s6">
+                        <select>
+                            <option value="" disabled selected>Choose the example to run</option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                        <label>Example data</label>
+                    </div>
+                </div>
+                <div id="comets_data">
+                    <form action="#">
+                    <div class="file-field input-field">
+                        <div class="btn">
+                            <span>File</span>
+                            <input type="file">
+                        </div>
+                        <div class="file-path-wrapper">
+                            <input class="file-path validate" type="text">
+                        </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card hoverable" id="mind_tool">
+        <div class="card-content">
+            <div class="card-title">
+                MIND
+            </div>
+            <div class="card-content">
+                Coming soon...
+            </div>
+        </div>
+    </div>
+
+</div>
+$$ endblock $$
