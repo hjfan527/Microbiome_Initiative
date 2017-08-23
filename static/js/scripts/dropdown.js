@@ -3,4 +3,6 @@ $(function() {
     $(".dropdown-button").attr('hover', false);
 });
 
-$(".button-collapse").sideNav();
+$(function() {
+    $(".button-collapse").sideNav();
+});

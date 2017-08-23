@@ -39,10 +39,10 @@ def home_page():
     data = {}
     return render_template('home.html', **data)
 
-@app.route('/people')
+@app.route('/teams')
 def people_page():
     data = {}
-    return render_template('people.html', **data)
+    return render_template('teams.html', **data)
 
 @app.route('/news')
 def news_page():
