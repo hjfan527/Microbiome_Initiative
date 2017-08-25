@@ -44,6 +44,16 @@ def people_page():
     data = {}
     return render_template('teams.html', **data)
 
+@app.route('/research')
+def research_page():
+    data = {}
+    return render_template('research.html', **data)
+
+@app.route('/sponsors')
+def sponsors_page():
+    data = {}
+    return render_template('sponsors.html', **data)
+
 @app.route('/news')
 def news_page():
     data = {}

@@ -11,7 +11,7 @@ $$ include 'includes/_carousel.html' $$
     <div class="animated slideInLeft card hoverable" id="pathoscope_tool">
         <div class="card-content">
             <span class="card-title activator grey-text text-darken-4">Pathoscope</span>
-            <p> A complete bioinformatics framework for rapidly and accurately quantifying the proportions of reads from individual microbial strains present in metagenomic sequencing data from environmental or clinical samples. The pipeline performs all necessary computational analysis steps; including reference genome library extraction and indexing, read quality control and alignment, strain identification, and summarization and annotation of results. </p>
+            <p>PathoScope is a complete bioinformatics framework for rapidly and accurately quantifying the proportions of reads from individual microbial strains present in metagenomic sequencing data from environmental or clinical samples. The pipeline performs all necessary computational analysis steps; including reference genome library extraction and indexing, read quality control and alignment, strain identification, and summarization and annotation of results. </p>
         </div>
         <div class="card-image waves-effect waves-block waves-light">
             <img class="activator center" style="width:400px;height:400px;" src="$ url_for('static', filename='images/pathoscope_workflow.png') $">
@@ -33,27 +33,53 @@ $$ include 'includes/_carousel.html' $$
             </div>
             <div class="card-content">
                 <div id="pathoscope_example">
-                    <div class="input-field col s6">
-                        <select>
-                            <option value="" disabled selected>Choose the example to run</option>
-                            <option value="1">Option 1</option>
-                            <option value="2">Option 2</option>
-                            <option value="3">Option 3</option>
-                        </select>
-                        <label>Example data</label>
-                    </div>
+                    <ul class="collapsible" data-collapsible="accordion">
+                        <li>
+                          <div class="collapsible-header">Example 1</div>
+                          <div class="collapsible-body">
+                              <span>Description of Example 1...</span>
+                              <br />
+                              <a class="waves-effect waves-light btn">Run</a>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="collapsible-header">Example 2</div>
+                          <div class="collapsible-body">
+                              <span>Description of Example 2...</span>
+                              <br />
+                              <a class="waves-effect waves-light btn">Run</a>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="collapsible-header">Example 3</div>
+                          <div class="collapsible-body">
+                              <span>Description of Example 3...</span>
+                              <br />
+                              <a class="waves-effect waves-light btn">Run</a>
+                          </div>
+                        </li>
+                    </ul>
                 </div>
                 <div id="pathoscope_data">
                     <form action="#">
+                    <div class="input-field col s12">
+                        <select>
+                          <option value="" disabled selected>Choose a database</option>
+                          <option value="1">NCBI Nucleotide Database</option>
+                          <option value="2">Greengene Database</option>
+                        </select>
+                        <label>Preset Reference Database</label>
+                    </div>
                     <div class="file-field input-field">
                         <div class="btn">
-                            <span>File</span>
+                            <span>Fasta File</span>
                             <input type="file">
                         </div>
                         <div class="file-path-wrapper">
                             <input class="file-path validate" type="text">
                         </div>
-                        </div>
+                    </div>
+                    <a class="waves-effect waves-light btn disabled">Submit</a>
                     </form>
                 </div>
             </div>
@@ -64,13 +90,16 @@ $$ include 'includes/_carousel.html' $$
         <div class="card-content">
             <span class="card-title activator grey-text text-darken-4">Pathostat</span>
             <p>PathoStat is a R package that performs Statistical Microbiome Analysis on metagenomics results from sequencing data samples. In particular, it supports analyses on the PathoScope generated report files. PathoStat provides various functionalities including Relative Abundance charts, Diversity estimates and plots, tests of Differential Abundance, Time Series visualization, and Core OTU analysis</p>
-            <p><a href="http://bioconductor.org/packages/release/bioc/html/PathoStat.html">Link to download Pathostat</a></p>
         </div>
         <div class="card-image waves-effect waves-block waves-light">
             <img class="activator center" style="width:400px;height:400px;" src="$ url_for('static', filename='images/pathostat_image.png') $">
         </div>
         <div id="tool-reveal">
-            <a class="activator btn-large waves-effect waves-light red">Try it out</a>
+            <a class="activator btn-large waves-effect waves-light red right">Try it out</a>
+        </div>
+        <div class="clearfix"></div>
+        <div class="card-action small">
+            <p><a href="http://bioconductor.org/packages/release/bioc/html/PathoStat.html">Link to download Pathostat</a></p>
         </div>
         <div class="card-reveal grey lighten-4">
             <span class="card-title grey-text text-darken-4">Pathostat Demo<i class="material-icons right">close</i></span>
@@ -82,26 +111,51 @@ $$ include 'includes/_carousel.html' $$
             </div>
             <div class="card-content">
                 <div id="pathostat_example">
-                    <div class="input-field col s6">
-                        <select>
-                            <option value="" disabled selected>Choose the example to run</option>
-                            <option value="1">Option 1</option>
-                            <option value="2">Option 2</option>
-                            <option value="3">Option 3</option>
-                        </select>
-                        <label>Example data</label>
-                    </div>
+                    <ul class="collapsible" data-collapsible="accordion">
+                        <li>
+                          <div class="collapsible-header">Example 1</div>
+                          <div class="collapsible-body">
+                              <span>Description of Example 1...</span>
+                              <br />
+                              <a class="waves-effect waves-light btn">Run</a>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="collapsible-header">Example 2</div>
+                          <div class="collapsible-body">
+                              <span>Description of Example 2...</span>
+                              <br />
+                              <a class="waves-effect waves-light btn">Run</a>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="collapsible-header">Example 3</div>
+                          <div class="collapsible-body">
+                              <span>Description of Example 3...</span>
+                              <br />
+                              <a class="waves-effect waves-light btn">Run</a>
+                          </div>
+                        </li>
+                    </ul>
                 </div>
                 <div id="pathostat_data">
+                    <div class="input-field col s6">
+                        <select>
+                            <option value="" disabled selected>Choose the type of file to import</option>
+                            <option value="pathoscope">Pathoscope Output File</option>
+                            <option value="biom">BIOM File</option>
+                        </select>
+                        <label>Method for PathoStat Run</label>
+                    </div>
                     <form action="#">
-                    <div class="file-field input-field">
-                        <div class="btn">
-                            <span>File</span>
-                            <input type="file">
-                        </div>
-                        <div class="file-path-wrapper">
-                            <input class="file-path validate" type="text">
-                        </div>
+                        <div class="file-field input-field">
+                            <div class="btn">
+                                <span>File</span>
+                                <input type="file">
+                            </div>
+                            <div class="file-path-wrapper">
+                                <input class="file-path validate" type="text">
+                            </div>
                         </div>
                     </form>
                 </div>
@@ -113,13 +167,16 @@ $$ include 'includes/_carousel.html' $$
         <div class="card-content">
             <span class="card-title activator grey-text text-darken-4">COMETS</span>
             <p>COMETS (Computation Of Microbial Ecosystems in Time and Space) is a software platform for performing computer simulations of metabolism in spatially structured microbial communities. It is based on stoichiometric modeling of the genome-scale metabolic network of individual microbial species (using dynamic flux balance analysis), and on a discrete approximation of diffusion.</p>
-            <p><a href="http://www.bu.edu/segrelab/comets/">Link to COMETS webpage</a></p>
         </div>
         <div class="card-image waves-effect waves-block waves-light">
             <img class="activator center" style="width:400px;height:400px;" src="$ url_for('static', filename='images/comets.gif') $">
         </div>
         <div id="tool-reveal">
-            <a class="activator btn-large waves-effect waves-light red">Try it out</a>
+            <a class="activator btn-large waves-effect waves-light red right">Try it out</a>
+        </div>
+        <div class="clearfix"></div>
+        <div class="card-action small">
+            <p><a href="http://www.bu.edu/segrelab/comets/">Link to download COMETS</a></p>
         </div>
         <div class="card-reveal grey lighten-4">
             <span class="card-title grey-text text-darken-4">COMETS Demo<i class="material-icons right">close</i></span>
@@ -131,27 +188,44 @@ $$ include 'includes/_carousel.html' $$
             </div>
             <div class="card-content">
                 <div id="comets_example">
-                    <div class="input-field col s6">
-                        <select>
-                            <option value="" disabled selected>Choose the example to run</option>
-                            <option value="1">Option 1</option>
-                            <option value="2">Option 2</option>
-                            <option value="3">Option 3</option>
-                        </select>
-                        <label>Example data</label>
-                    </div>
+                    <ul class="collapsible" data-collapsible="accordion">
+                        <li>
+                          <div class="collapsible-header">Example 1</div>
+                          <div class="collapsible-body">
+                              <span>Description of Example 1...</span>
+                              <br />
+                              <a class="waves-effect waves-light btn">Run</a>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="collapsible-header">Example 2</div>
+                          <div class="collapsible-body">
+                              <span>Description of Example 2...</span>
+                              <br />
+                              <a class="waves-effect waves-light btn">Run</a>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="collapsible-header">Example 3</div>
+                          <div class="collapsible-body">
+                              <span>Description of Example 3...</span>
+                              <br />
+                              <a class="waves-effect waves-light btn">Run</a>
+                          </div>
+                        </li>
+                    </ul>
                 </div>
                 <div id="comets_data">
                     <form action="#">
-                    <div class="file-field input-field">
-                        <div class="btn">
-                            <span>File</span>
-                            <input type="file">
-                        </div>
-                        <div class="file-path-wrapper">
-                            <input class="file-path validate" type="text">
-                        </div>
-                        </div>
+                        <div class="file-field input-field">
+                            <div class="btn">
+                                <span>File</span>
+                                <input type="file">
+                            </div>
+                            <div class="file-path-wrapper">
+                                <input class="file-path validate" type="text">
+                            </div>
+                            </div>
                     </form>
                 </div>
             </div>
